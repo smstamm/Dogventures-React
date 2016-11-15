@@ -3,6 +3,8 @@ import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 import getMuiTheme from "material-ui/styles/getMuiTheme";
 import theme from "../style/theme.js";
 import { Card, CardActions, CardHeader, CardMedia, CardTitle, CardText } from "material-ui/Card";
+import AppBar from "material-ui/AppBar";
+
 import porchImg from "../images/about.jpg";
 
 const muiTheme = getMuiTheme(theme);
@@ -22,5 +24,3 @@ export default class Home extends Component {
 		);
 	}
 }
-					// <h1>Find the perfect companion<br />for your every adventure</h1>
-					// <a>Adopt a co-pilot</a>
