@@ -5,6 +5,7 @@ import theme from "../style/theme.js";
 import AppBar from "material-ui/AppBar";
 //COMPONENTS
 import Header from "../components/layout/header";
+import Home from "../components/home";
 
 import porchImg from "../images/about.jpg";
 
@@ -17,7 +18,7 @@ export default class App extends Component {
 			<MuiThemeProvider muiTheme={muiTheme}>
 				<div>
 					<Header />
-					{this.props.children}
+					{this.props.children || <Home />}
 				</div>
 			</MuiThemeProvider>
 		);

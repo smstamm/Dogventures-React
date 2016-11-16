@@ -19,7 +19,9 @@ export default class Header extends Component {
 		return (
 
 			<MuiThemeProvider muiTheme={muiTheme}>
-				<AppBar title="Dogventures"
+				<AppBar
+					style={{width: "auto"}}
+					title="Dogventures"
 					iconElementRight={
 						<div>
 							<Link to="home"><FlatButton label="Home" /></Link>

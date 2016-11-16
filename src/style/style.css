@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	color: white;
+}
+
+/*img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}*/
+
+#hero {
+	background: url(../images/hike.jpg) no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+}
+
+#hero-overlay {
+	height: 100vh;
+	background-color: #000000;
+	opacity: .30;
+}
+
+#hero-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+#hero-heading {
+	height: 50vh;
+}
+
+#hero-btn {
+	height: 60vh;
+}
+
+
