@@ -18,8 +18,8 @@ export default class Home extends Component {
 						<div id="hero-overlay" />
 					</div>
 					<div id="hero-content">
-						<h1 id="hero-heading">Find the perfect companion for your every adventure</h1>
-						<RaisedButton id="hero-btn" label="Adopt a co-pilot" primary={true} onClick={() => {browserHistory.push("zip")}} />
+						<h1>Find the perfect companion for your every adventure</h1>
+						<RaisedButton label="Adopt a co-pilot" primary={true} onClick={() => {browserHistory.push("zip")}} />
 					</div>
 				</div>
 			</MuiThemeProvider>

@@ -31,20 +31,12 @@ h1 {
 #hero-content {
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 21px;
 	right: 0;
 	text-align: center;
 	display: flex;
 	justify-content: center;
-	align-items: flex-end;
+	align-items: flex-start;
+	height: 70vh;
+	flex-direction: column;
 }
-
-#hero-heading {
-	height: 50vh;
-}
-
-#hero-btn {
-	height: 60vh;
-}
-
-
