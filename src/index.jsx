@@ -25,3 +25,8 @@ ReactDOM.render(
 			</Route>
 		</Router>
 	</Provider>, document.querySelector("#dogventures"));
+
+
+if (module.hot) {
+	module.hot.accept();
+}

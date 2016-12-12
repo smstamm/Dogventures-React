@@ -7,7 +7,7 @@ import AppBar from "material-ui/AppBar";
 import Header from "../components/layout/header";
 import Home from "../components/home";
 
-import porchImg from "../images/about.jpg";
+import porchImg from "../images/About.jpg";
 
 const muiTheme = getMuiTheme(theme);
 

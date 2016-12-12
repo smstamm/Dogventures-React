@@ -9,7 +9,7 @@ import FlatButton from "material-ui/FlatButton";
 import IconButton from "material-ui/IconButton";
 import SvgIcon from "material-ui/SvgIcon";
 
-import porchImg from "../../images/about.jpg";
+import porchImg from "../../images/About.jpg";
 import pawIcon from "../../images/paw.png";
 
 const muiTheme = getMuiTheme(theme);

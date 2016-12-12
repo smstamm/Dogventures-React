@@ -5,7 +5,7 @@ import theme from "../style/theme.js";
 import { Card, CardActions, CardHeader, CardMedia, CardTitle, CardText } from "material-ui/Card";
 import AppBar from "material-ui/AppBar";
 
-import porchImg from "../images/about.jpg";
+import porchImg from "../images/About.jpg";
 
 const muiTheme = getMuiTheme(theme);
 

@@ -1,5 +1,10 @@
+// import webpack from 'webpack';
+let webpack = require('webpack');
+
 module.exports = {
 	entry: [
+		'webpack-dev-server/client?http://localhost:8080/',
+		'webpack/hot/dev-server',
 		'./src/index.jsx'
 	],
 	output: {
@@ -9,13 +14,13 @@ module.exports = {
 	},
 	watch: true,
 	module: {
-		loaders: [
-			{
+		loaders: 
+			[{
 				test: /\.jsx?$/,
 				exclude: /node_modules/,
 				loader: 'babel',
 				query: {
-					presets: ['react', 'es2015', 'stage-1']
+					presets: ['react', 'es2015', 'stage-1', 'react-hmre']
 				}
 			},
 			{
@@ -37,8 +42,12 @@ module.exports = {
 	resolve: {
 		extensions: ['', '.js', '.jsx']
 	},
+	plugins: [
+		new webpack.HotModuleReplacementPlugin(),
+	],
 	devServer: {
 		historyApiFallback: true,
-		contentBase: './'
+		contentBase: './',
+		hot: true
 	}
 };
