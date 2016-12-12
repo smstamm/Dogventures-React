@@ -13,12 +13,12 @@ export default class Home extends Component {
 	render() {
 		return (
 			<MuiThemeProvider muiTheme={muiTheme}>
-				<div>
+				<div id="home">
 					<div id="hero">
 						<div id="hero-overlay" />
 					</div>
 					<div id="hero-content">
-						<h1>Find the perfect companionadrere for your every adventure</h1>
+						<h1 style={{color:"white"}}>Find the perfect companion for your every adventure</h1>
 						<RaisedButton label="Adopt a co-pilot" primary={true} onClick={() => {browserHistory.push("zip")}} />
 					</div>
 				</div>
